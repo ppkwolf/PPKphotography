@@ -1,0 +1,185 @@
+body {
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    margin: 0;
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+header {
+    height: 80px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow */
+}
+
+/* Styling for the header images */
+#headerImage, #fullWidthHeader {
+    color: rgb(1, 1, 1);
+    line-height: 2em;
+    text-align: left;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+#headerImage {
+    background-image: url('images/home-header.jpg'); /* Replace with your actual image */
+}
+
+#fullWidthHeader {
+    background-image: url('images/337373_161958513892928_3489155_o.jpg'); /* Replace with your actual image */
+}
+
+/* Text overlay styling */
+.text-overlay {
+    color: white;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for text */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.text-overlay h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+.text-overlay p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+/* Responsive text styling */
+@media (max-width: 768px) {
+    .text-overlay h1 {
+        font-size: 2rem;
+    }
+
+    .text-overlay p {
+        font-size: 1.2rem;
+    }
+}
+
+/* Section styling */
+.home2, #home3, #home4 {
+    padding: 60px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+#home3 {
+    margin: 60px 0;
+}
+
+#home4 {
+    background-color: #29ABE2;
+    color: white;
+}
+#home5 {
+    align-items: center;
+    padding: 30px 60px 30px 60px;
+    background-color: #29ABE2;
+    color: white;
+}
+
+.limited-image {
+    max-width: 100%;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+}
+
+.limited-text {
+    padding: 100px;
+    text-align: right;
+}
+
+.text-box {
+    padding: 100px;
+    color: white;
+    text-align: left;
+    max-width: 600px;
+    margin-left: 100px;
+}
+
+/* Icon box styling */
+.icon-box img.icon-img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-bottom: 60px;
+    object-fit: contain;
+}
+
+/* Header lines styling */
+.headerLine, .headerLine2 {
+    border: none;
+    height: 3px;
+    background-color: rgb(255, 196, 0);
+    opacity: 1;
+    width: 100px;
+    margin: 10px 0;
+}
+
+.headerLine2 {
+    margin-left: auto;
+}
+
+/* Background image for sections */
+.bg-image {
+    background-image: url('images/AdobeStock_297146649.jpg');
+    color: white;
+    line-height: 2em;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    max-height: 80vh;
+    max-width: 100vw;
+}
+
+/* Responsive adjustments for header images */
+@media (max-width: 768px) {
+    #headerImage, #fullWidthHeader {
+        height: 70vh;
+    }
+
+    .text-box {
+        max-width: 100%;
+        margin-left: 20px;
+        padding: 50px;
+    }
+
+    .text-box h1 {
+        font-size: 2.5rem;
+    }
+}
+
+/* Footer styling */
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.container {
+    margin-bottom: 40px;
+}
