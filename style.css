@@ -37,11 +37,11 @@ header {
 }
 
 #headerImage {
-    background-image: url('images/home-header.jpg'); /* Replace with your actual image */
+    background-image: url('home-header.jpg'); /* Replace with your actual image */
 }
 
 #fullWidthHeader {
-    background-image: url('images/337373_161958513892928_3489155_o.jpg'); /* Replace with your actual image */
+    background-image: url('337373_161958513892928_3489155_o.jpg'); /* Replace with your actual image */
 }
 
 /* Text overlay styling */
@@ -142,7 +142,7 @@ header {
 
 /* Background image for sections */
 .bg-image {
-    background-image: url('images/AdobeStock_297146649.jpg');
+    background-image: url('AdobeStock_297146649.jpg');
     color: white;
     line-height: 2em;
     text-align: center;
